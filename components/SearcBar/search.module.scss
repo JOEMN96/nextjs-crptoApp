@@ -1,0 +1,15 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  input {
+    width: 100%;
+    max-width: 300px;
+    padding: 7px;
+    outline: transparent;
+    margin-top: 20px;
+    border: 1px solid #d0cae5;
+    border-radius: 2px;
+    margin: 20px;
+  }
+}
