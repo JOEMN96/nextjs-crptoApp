@@ -55,7 +55,6 @@ import styles from "./coinparent.module.scss";
 import SingleCoin from "./SingleCoin/Singelcoin";
 
 function Coinparent({ data }) {
-  console.log(data);
   return (
     <div className={styles.parent}>
       {data.map((coin) => {
